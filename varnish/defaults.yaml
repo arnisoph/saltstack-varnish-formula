@@ -2,6 +2,19 @@
 Debian:
   pkgs:
     - varnish
+  config:
+    manage:
+      - default
+      - common
+      - backends
+      - vcl_recv
+      - vcl_backend_response
+    default:
+      include: False
+    common: {}
+    backends: {}
+    vcl_recv: {}
+    vcl_backend_response: {}
   service: {}
 RedHat:
   pkgs:

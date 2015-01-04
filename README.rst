@@ -36,7 +36,9 @@ Setup and configure varnish
 Additional resources
 --------------------
 
-None
+You may find the following formulas helpful, too:
+
+* `saltstack-apt-formula <https://github.com/bechtoldt/saltstack-apt-formula>`_
 
 Templates
 ---------
