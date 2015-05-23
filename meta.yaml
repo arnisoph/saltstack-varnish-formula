@@ -1,0 +1,9 @@
+name: saltstack-varnish-formula
+source: https://github.com/bechtoldt/saltstack-varnish-formula
+summary: SaltStack Formula to set up and configure varnish, a web application accelerator also known as a caching HTTP reverse proxy
+todo:
+  - add instructions how to use formhelper, add information about it in the formula-docs (dependency), show up alternative?
+  - 'table/ matrix: os/salt compatibility (dedicated file)'
+  - add list of available states
+  - add tests
+  - deploy https://github.com/brandonwamboldt/varnish-dashboard ?
